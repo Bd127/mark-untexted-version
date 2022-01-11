@@ -1,0 +1,279 @@
+body{
+    background-color:darkred;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+/*the top layout of the page*/
+.top-layout {
+    width: 90%;
+    display: flex;
+    flex-direction: row; 
+    justify-content:space-around;
+}
+.brittney {
+ margin-right:450px;
+}
+.brittney-end {
+    margin-left: 450px;
+    background-color: Highlight;
+}
+.brittney-end:active{
+    background-color:blue;
+}
+
+/*the grid*/
+.grid {
+    display: flex;
+    flex-direction:column;
+    border:solid white 1px;
+    height:500px;
+    width:90%;
+}
+
+/*opp play side*/
+.herPlaceholder{
+    display:flex;
+    flex-direction:row;
+}
+.herHand {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+}
+.herDeck{
+    margin:5px;
+    width:80px;
+    height:120px;
+    border-radius:20px;
+    background-color:darkblue;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:40px;
+    font-style:oblique;
+}
+.herSide {
+    width: 100%;
+    height: 125px;
+    display:flex;
+    flex-direction:row;
+}
+.herGrave {
+    margin: 5px;
+    width: 80px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: darkblue;
+}
+.herGraveDisplays {
+    display: inline-flex;
+    flex-direction: row;
+    width: 1100px;
+    height: 130px;
+    left: 163px;
+   
+    position: absolute;
+    background-color: black;
+}
+/*my playable side*/
+.mySide {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+}
+.myDeck {
+    margin: 5px;
+    width: 80px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-style: oblique;
+}
+.myHand {
+    width: 100%;
+    height: 125px;
+    display:flex;
+    flex-direction:row;
+}
+.myGrave {
+    margin: 5px;
+    width: 80px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: gold;
+}
+.myGraveDisplays {
+    display: inline-flex;
+    flex-direction: row;
+    width: 1100px;
+    height: 130px;
+    left: 163px;
+  
+    position: absolute;
+    background-color: black;
+}
+
+/*bottom layout*/
+.bottom-layout {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.byron-end{
+    background-color:darkgoldenrod;
+}
+.byron-end:active{
+    background-color:gold;
+}
+
+/*basic styling*/
+button{
+    align-content:center;
+    height:60px;
+    width:60px;
+    border:solid black 1px;
+    border-radius:25px;
+}
+    button:hover {
+        height: 65px;
+        width: 65px;
+    }
+
+
+/*cards types*/
+.green {
+    width: 80px; 
+    height: 120px; 
+    border-radius:15px;
+    border:solid black 1px;
+    display:flex;
+    flex-direction:column;
+    background-color:green;
+}
+    .green:hover {
+        width: 90px;
+        height: 130px;
+    }
+.red {
+    width: 80px;
+    height: 120px;
+    border-radius: 15px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+.red:hover {
+    width: 90px;
+    height: 130px;
+}
+.yellow {
+    width: 80px;
+    height: 120px;
+    border-radius: 15px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: gold;
+}
+    .yellow:hover {
+        width: 90px;
+        height: 130px;
+    }
+.grey {
+    width: 80px;
+    height: 120px;
+    border-radius: 15px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategrey;
+}
+    .grey:hover {
+        width: 90px;
+        height: 130px;
+    }
+.blue {
+    width: 80px;
+    height: 120px;
+    border-radius: 15px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+    .blue:hover {
+        width: 90px;
+        height: 130px;
+    }
+/*cards display*/
+.top {
+    width:100%;
+    height:30%;
+    margin:0px;
+    margin-left:7px;
+}
+img{
+    width: 100%;
+    height: 50%;
+}
+.bottom {
+    width: 100%;
+    height: 20%;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    margin:0px;
+}
+
+/*creative divs*/
+
+.displayP{
+    position:absolute;
+    background-color:black;
+    border:solid grey 1px;
+    height: 200px;
+    width:200px;
+    left:550px;
+}
+.yes{
+    height:100px;
+    width:200px;
+    background-color:red;
+    border:solid white 1px;
+    border-radius:25px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:53px;
+    color:black;
+    font-style:italic;
+}
+.yes:hover{
+    background-color:orangered;
+}
+.no {
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    border: solid blue 1px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 53px;
+    color: black;
+    font-style: italic;
+}
+.no:hover{
+    background-color:goldenrod;
+}

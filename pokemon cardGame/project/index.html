@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pokemon cardGame</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!–the top layout og my page  in this lay out we have our score , the round and the turn finsh button–>
+    <div class="top-layout">
+        <h2 class="brittney">Brittney: <span class="herScore"> 0</span></h2>
+        <h2>round:<span class="round"> 0</span></h2>
+        <button class="brittney-end">end round</button>
+    </div>
+
+    <!–this is were both players hands , deck and hards will be –>
+    <div class="grid">
+        <div class="herPlaceholder">
+            <div class="herDeck"></div>
+            <div class="herHand"></div>
+        </div>
+        <div class="herPlaceholder">
+            <div class="herGrave"></div>
+            <div class="herSide"></div>
+            
+        </div>
+
+        <!–this is were my deck , hand , matt and grave will be–>
+        <div class="herPlaceholder">
+            <div class="myGrave"></div>
+            <div class="mySide"></div>
+           
+        </div>
+            <div class="myHand">
+                <div class="myDeck"></div>
+            </div>
+    </div>
+
+        <!–this is were the bottom layout will be  containing my score and my button –>
+        <div class="bottom-layout">
+            <h2 class="byron">Byron: <span class="myScore"> 0</span></h2>
+            <button class="byron-end">end round</button>
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
